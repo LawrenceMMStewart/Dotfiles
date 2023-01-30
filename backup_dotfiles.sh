@@ -11,7 +11,7 @@ cp ~/.vimrc .
 cp ~/.tmux.conf .
 
 
-git pull origin master
+git pull
 git add --all
 git commit -m "Update : $(timestamp)"
 git push 
