@@ -12,9 +12,9 @@ cp ~/.tmux.conf .
 
 
 git pull origin master
-git add .
+git add --all
 git commit -m "Update : $(timestamp)"
-git push origin master
+git push 
 
 
 
