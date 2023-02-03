@@ -5,7 +5,6 @@ timestamp() {
   date +"%d-%m-%Y @ %T"
 }
 
-
 cp ~/.zshrc .
 cp ~/.vimrc .
 cp ~/.tmux.conf .

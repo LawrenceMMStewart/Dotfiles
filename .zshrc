@@ -124,11 +124,12 @@ fi
 
 export PATH=/opt/anaconda3/bin:$PATH
 
-
-
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # stop mamba from outputting its banner
 # export MAMBA_NO_BANNER=1
 # source /Users/lawrencestewart/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#
+
+# alias for python -m pytest (which has better behaviour than calling the script pytest)
+alias pytest="python -m pytest"
