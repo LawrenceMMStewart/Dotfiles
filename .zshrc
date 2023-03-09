@@ -133,3 +133,8 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # alias for python -m pytest (which has better behaviour than calling the script pytest)
 alias pytest="python -m pytest"
+# alias for activating m1 environment
+alias m1="mamba activate m1"
+
+# alias for creating an empty beamer file
+alias newbeamer="cp -r /Users/lawrencestewart/Myfiles/TexTemplates/beamer ."

@@ -28,6 +28,7 @@ Plugin 'arcticicestudio/nord-vim'
 Plugin 'lervag/vimtex'
 Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'sickill/vim-monokai'
+Plugin 'Mofiqul/vscode.nvim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,7 +46,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-colo default
+set termguicolors
+" colo default
 syntax on
 set number
 " high color mode for iterm2 https://iterm2.com/documentation-highlights.html
@@ -66,9 +68,12 @@ syntax enable
  " colorscheme solarized
  " let g:airline_theme='solarized'
 
+
 " set background=dark
-colorscheme nord
-let g:airline_theme='nord'
+colorscheme vscode 
+let g:airline_theme='tomorrow'
+
+
 
 "" maybe turn off
 let python_highlight_all=1
