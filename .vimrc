@@ -29,6 +29,7 @@ Plugin 'lervag/vimtex'
 Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'sickill/vim-monokai'
 Plugin 'Mofiqul/vscode.nvim'
+Plugin 'SirVer/ultisnips'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -75,7 +76,7 @@ let g:airline_theme='tomorrow'
 
 
 
-"" maybe turn off
+" "" maybe turn off
 let python_highlight_all=1
 
 "allow control n to open NERDTree dir navigation
@@ -120,3 +121,11 @@ let g:tex_flavor='latex'
 let g:vimtex_view_method = 'skim' 
 let g:vimtex_view_skim_sync = 1 
 let g:vimtex_view_skim_activate = 1 
+
+
+" Ultisnips 
+"
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+let g:UltiSnipsEditSplit = 'tabdo'

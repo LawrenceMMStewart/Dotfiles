@@ -138,3 +138,8 @@ alias m1="mamba activate m1"
 
 # alias for creating an empty beamer file
 alias newbeamer="cp -r /Users/lawrencestewart/Myfiles/TexTemplates/beamer ."
+# alias for creating an empty latex file
+alias newtex="cp -r /Users/lawrencestewart/Myfiles/TexTemplates/latex ."
+
+# define default editor as nvim instead of vi
+export EDITOR=nvim
