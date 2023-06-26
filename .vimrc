@@ -133,4 +133,9 @@ let g:UltiSnipsEditSplit = 'tabdo'
 " Set the filetype based on the file's extension, overriding any
 " 'filetype' that has already been set
 au BufRead,BufNewFile *.batch set filetype=bash
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
+
+" for slime repl
+let g:slime_target = "tmux"
+let g:slime_python_ipython = 1
