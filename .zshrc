@@ -136,10 +136,16 @@ alias pytest="python -m pytest"
 # alias for activating m1 environment
 alias m1="mamba activate m1"
 
+#alias for using neovim
+alias vi="nvim"
+
 # alias for creating an empty beamer file
 alias newbeamer="cp -r /Users/lawrencestewart/Myfiles/TexTemplates/beamer ."
 # alias for creating an empty latex file
 alias newtex="cp -r /Users/lawrencestewart/Myfiles/TexTemplates/latex ."
+
+alias notes="cat /Users/lawrencestewart/Myfiles/todonotes.md"
+alias editnotes="vi /Users/lawrencestewart/Myfiles/todonotes.md"
 
 # define default editor as nvim instead of vi
 export EDITOR=nvim
