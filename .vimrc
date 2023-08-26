@@ -30,6 +30,7 @@ Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'sickill/vim-monokai'
 Plugin 'Mofiqul/vscode.nvim'
 Plugin 'SirVer/ultisnips'
+Plugin 'AndrewRadev/splitjoin.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -139,3 +140,5 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 " for slime repl
 let g:slime_target = "tmux"
 let g:slime_python_ipython = 1
+let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
+nmap <c-c><c-x> :%SlimeSend<cr>

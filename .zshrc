@@ -149,3 +149,16 @@ alias editnotes="vi /Users/lawrencestewart/Myfiles/todonotes.md"
 
 # define default editor as nvim instead of vi
 export EDITOR=nvim
+
+
+
+# # use homebrew installed ruby instead of system default ruby
+# if [ -d "/usr/local/opt/ruby/bin" ]; then
+#   export PATH=/usr/local/opt/ruby/bin:$PATH
+#   export PATH=`gem environment gemdir`/bin:$PATH
+# fi
+
+# add brew ruby and gems to shell config
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
+
+
