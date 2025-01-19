@@ -135,6 +135,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 alias pytest="python -m pytest"
 # alias for activating m1 environment
 alias m1="mamba activate m1"
+alias regclass="mamba activate regclass"
 
 #alias for using neovim
 alias vi="nvim"
@@ -162,3 +163,16 @@ export EDITOR=nvim
 export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
 
 
+
+
+# BEGIN opam configuration
+# This is useful if you're using opam as it adds:
+#   - the correct directories to the PATH
+#   - auto-completion for the opam binary
+# This section can be safely removed at any time if needed.
+[[ ! -r '/Users/lawrencestewart/.opam/opam-init/init.zsh' ]] || source '/Users/lawrencestewart/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
+# END opam configuration
+#
+#
+
+alias jql='jq -M . | bat --language=json'
