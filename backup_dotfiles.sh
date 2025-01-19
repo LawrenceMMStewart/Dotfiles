@@ -8,7 +8,7 @@ timestamp() {
 cp ~/.zshrc .
 cp ~/.vimrc .
 cp ~/.tmux.conf .
-cp -r ~/.config/nvim .
+cp -r ~/.config/nvim .nvim
 
 git pull
 git add --all
