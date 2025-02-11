@@ -151,6 +151,9 @@ alias editnotes="vi /Users/lawrencestewart/Myfiles/todonotes.md"
 # define default editor as nvim instead of vi
 export EDITOR=nvim
 
+export HF_DATASETS_CACHE="/Users/lawrencestewart/Myfiles/datasets"
+export OPENML_CACHE_DIR="/Users/lawrencestewart/Myfiles/datasets"
+export DATASET_DIR="/Users/lawrencestewart/Myfiles/datasets"
 
 
 # # use homebrew installed ruby instead of system default ruby
@@ -176,3 +179,4 @@ export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
 #
 
 alias jql='jq -M . | bat --language=json'
+
